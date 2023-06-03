@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book-Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+
+    <!-- Fonts...... -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Google icons  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <div class="nav1">
+            <a href="">Browse Library</a>
+            <input type="text" id="search_book" placeholder="Search Book">
+        </div>
+        <h3>Available Books</h3>
+        <div class="icon-about">
+            <i class="material-icons"><span class="material-icons-outlined">account_circle</span></i>
+            <a href="">About-Us</a>
+        </div>
+
+    </nav>
+
+    <main>
+        <div class="books">
+            <div>
+                <img src="https://books.google.com/books/publisher/content/images/frontcover/OEW9EAAAQBAJ?fife=w512-h512" alt="" class="book-img">
+            </div>
+            <div class="descp">
+                <h2 class="book-name">Psychology of Effective money Management</h2>
+                <h3 class="author">by Jojo Myoes</h3>
+                <h3 class="rating">1.987 rating</h3>
+                <p class="info">
+                    It continues the story of Louisa Clark after Will's death. She is trying to move on. 
+                </p>
+                <button type="submit">See the Book</button>
+            </div>
+        </div>
+
+        <div class="books">
+            <div>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/91JxVjINNsL.jpg" alt="" class="book-img">
+            </div>
+            <div class="descp">
+                <h2 class="book-name">Big Magic</h2>
+                <h3 class="author">by Elizabeth Gilbert</h3>
+                <h3 class="rating">1.987 rating</h3>
+                <p class="info">
+                    Readers of all ages and walks of life have drawn inspiration from Elizabeth
+                    Gilbert’s books.
+                </p>
+                <button type="submit" id="b1">See the Book</button>
+            </div>
+        </div>
+
+        <div class="books">
+            <div>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/9129dzchsGL.jpg" alt="" class="book-img">
+            </div>
+            <div class="descp">
+                <h2 class="book-name">A Tale for the Time Being</h2>
+                <h3 class="author">by Ruth Ozeki</h3>
+                <h3 class="rating">1.987 rating</h3>
+                <p class="info">
+                    In Tokyo, sixteen-year-old Nao has decided there’s only one escape from her aching loneliness
+                    
+                </p>
+                <button type="submit" id="b2">See the Book</button>
+            </div>
+        </div>
+
+        <div class="books">
+            <div>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/81djg0KWthS.jpg"
+                    alt="" class="book-img">
+            </div>
+            <div class="descp">
+                <h2 class="book-name">The Great Gatsby</h2>
+                <h3 class="author">by F. Scott Fitzgerald</h3>
+                <h3 class="rating">1.987 rating</h3>
+                <p class="info">
+                    The novel was inspired by a youthful romance Fitzgerald had with socialite Ginevra King 
+                </p>
+                <button type="submit" id="b3">See the Book</button>
+            </div>
+        </div>
+
+        <div class="books">
+            <div>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/718ReYbwlFL.jpg" alt="" class="book-img">
+            </div>
+            <div class="descp">
+                <h2 class="book-name">After You</h2>
+                <h3 class="author">by Jojo Myoes</h3>
+                <h3 class="rating">1.987 rating</h3>
+                <p class="info">
+                    It continues the story of Louisa Clark after Will's death. She is trying to move on. 
+                </p>
+                <button type="submit">See the Book</button>
+            </div>
+        </div>
+
+        <div class="books">
+            <div>
+                <img src="https://books.google.com/books/publisher/content/images/frontcover/hCBGDwAAQBAJ?fife=w480-h690" alt="" class="book-img">
+            </div>
+            <div class="descp">
+                <h2 class="book-name">Exit Strategy: The MurderBot diaries</h2>
+                <h3 class="author">by Martha Wells</h3>
+                <h3 class="rating">4.7 rating</h3>
+                <p class="info">
+                    Murderbot wasn’t programmed to care. So, its decision to...
+                </p>
+                <button type="submit" id="b1">See the Book</button>
+            </div>
+        </div>
+
+        <div class="books">
+            <div>
+                <img src="https://books.google.com/books/publisher/content/images/frontcover/qOJxEAAAQBAJ?fife=w480-h690" alt="" class="book-img">
+            </div>
+            <div class="descp">
+                <h2 class="book-name">Identity</h2>
+                <h3 class="author">by Nora Roberts</h3>
+                <h3 class="rating">4.2 rating</h3>
+                <p class="info">
+                    Morgan Albright dreams of owning her own bar one day but she's bartending for now - working hard...
+                </p>
+                <button type="submit" id="b2">See the Book</button>
+            </div>
+        </div>
+
+        <div class="books">
+            <div>
+                <img src="https://books.google.com/books/publisher/content/images/frontcover/4rgrDwAAQBAJ?fife=w480-h690"
+                    alt="" class="book-img">
+            </div>
+            <div class="descp">
+                <h2 class="book-name">Ask,Tell</h2>
+                <h3 class="author">by E.J.Noyes</h3>
+                <h3 class="rating">4.5 rating</h3>
+                <p class="info">
+                    Captain Sabine Fleischer is a skilled and dedicated U.S. Army surgeon deployed...
+                </p>
+                <button type="submit" id="b3">See the Book</button>
+            </div>
+        </div>
+        <!-- <a href=index.html class="previous">&laquo; Previous</a> -->
+<a href=page2.html class="next">Next &raquo;</a>
+
+<!-- <a href=index.html class="previous round">&#8249;</a> -->
+<a href=page2.html class="next round">&#8250;</a>
+        <!-- <div>        <nav aria-label="...">
+            <ul class="pagination">
+              <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item active">
+                <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav></div>
+          <div></div> -->
+
+    </main>
+    <div>
+
+        <span><hr></span>
+    </div>
+</body>
+
+</html>
